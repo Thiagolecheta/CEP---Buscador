@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style.css">
+    <script src="https://kit.fontawesome.com/19325bb10d.js"></script>
+    <title>Buscador de CEP</title>
+</head>
+<body>
+    <div class="container">
+        <div class="area">
+            <div class="title">
+                <div class="efect_title"></div>
+                <h1>Consulte o seu CEP</h1>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Pesquise o CEP - EX: 82000-000" class="inputCEP" focus>
+                <button onclick="searchCEP()"><img src="/assets/imagens/icone.png" alt="Icone pesquisa"></button>
+            </div>
+            <div class="answer">
+                <span class="address"></span>
+                <span class="district"></span>
+                <span class="city"></span>
+                <span class="state"></span>
+                <span class="code"></span>
+                <button onclick="clear()" class="teste">limpar dados</button>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="/script/script.js"></script>
+</body>
+</html>

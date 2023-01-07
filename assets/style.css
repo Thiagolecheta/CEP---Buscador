@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', 'Arial';
+}
+
+body{
+    background-image: url('/assets/imagens/fundo.jpg');
+    background-repeat: no-repeat;
+    background-color: #F6F6F8;
+}
+
+.container{
+    max-width: 1200px;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.area{
+    margin: auto 0;
+    width: 437px;
+}
+
+.title{
+    margin: auto;
+    margin-bottom: 82px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.title h1{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #1E1E1E;
+}
+.efect_title{
+    width: 7px;
+    height: 25px;
+    left: 835px;
+    background: #521FE6;
+    border-radius: 2px;
+}
+
+.search {
+    margin-bottom: 48px;
+}
+
+.search input {
+    width: 333px;
+    height: 66px;
+    background: #3A3939;
+    border: 1px solid #E9E9EA;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+.search button{
+    position: absolute;
+    width: 92px;
+    height: 66px;
+    background: #521FE6;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.search input::placeholder{
+    color: #A3A2A2;
+}
+
+.answer{
+    display: none;
+    width: 437px;
+    height: 543px;
+    background: #3A3939;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 48px 30px;
+}
+
+.answer span {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border-bottom: 2px solid #404040;
+    display: block;
+    margin-bottom: 20px;
+    padding: 8px;
+}
+
+.answer span:hover{
+    border-bottom: 2px solid #521FE6;
+    background-color: #404040;
+}
+
+.answer button {
+    margin-top: 78px;
+    width: 377px;
+    height: 66px;
+    background: #521FE6;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.inputCEP{
+    padding: 20px;
+}
+
+
+@media(max-width: 1200px){
+
+    .container{
+        justify-content: center;
+    }
+    .search {
+        margin-right: 100px;
+    }
+    
+}
+
+@media (max-width:550px){
+
+   .area{
+    max-width: 330px;
+   }     
+
+   .search input{
+    width: 100%;
+   }
+
+   .answer {
+    width: 100%;
+   }
+   
+   .answer button{
+    width: 100%;
+   }
+}
