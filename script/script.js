@@ -24,7 +24,7 @@ async function searchCEP(){
 }
 
 
-function clear(){
+function clean(){
     answer.style.display = 'none'
 }
 
