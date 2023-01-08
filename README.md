@@ -20,9 +20,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Git e Github
 - Figma
 
+
 ## 💻 Projeto
 
 É um sistema simples, feito para pesquisar o CEP e com isso mostra o nome da rua, bairro, cidade etc. Todos os dados vem da [API CEP](https://apicep.com)
+
+- [Acesse o projeto finalizado, online](https://cep-buscador-ten.vercel.app)
 
 ## 🔖 Layout
 
